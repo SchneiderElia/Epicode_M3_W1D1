@@ -1,0 +1,170 @@
+
+/* ES1 --------------------------------------------------- */
+
+
+.display-4 {
+    color: magenta;
+}
+
+.col-md-6 h1{
+    color: aqua;
+}
+
+.jumbotron h1{
+    color: coral;
+}
+
+/* ES2 --------------------------------------------------- */
+
+nav {
+    color: magenta;
+}
+
+.nav {
+    color: aqua;
+}
+
+.nav  span  {
+    color: rgb(14, 207, 40);
+}
+
+.nav > span  {
+    color: rgb(255, 196, 0);
+}
+
+.nav > *  {
+    color: rgb(255, 0, 0);
+}
+
+.container nav {
+    color: coral;
+}
+
+.container nav span {
+    color: chocolate;
+}
+
+/* ES3 --------------------------------------------------- */
+
+.font-weight-bold {
+    color: magenta;
+}
+
+.jumbotron a {
+    color: aqua;
+}
+
+.col-md-6 p a  {
+    color: coral;
+}
+
+.jumbotron .col-md-6.px-0 > p:last-of-type a  {
+    color: rgb(5, 255, 5);
+}
+
+/* ES4 --------------------------------------------------- */
+
+.col-md-8 h3 + div {
+    color: magenta;
+}
+
+.blog-post:first-of-type {
+    color: rgb(208, 255, 0);
+}
+
+.blog-post:first-child {
+    color: rgb(0, 102, 255);
+}
+
+.blog-main > .blog-post:first-child {
+    color: rgb(255, 0, 0);
+}
+
+/* ES5 --------------------------------------------------- */
+
+.blog-post hr {
+    border-color: chocolate;
+}
+
+.blog-post:first-of-type hr {
+    border-color: rgb(0, 255, 34);
+}
+
+.blog-post:first-child hr  {
+    border-color: rgb(30, 144, 210);
+}
+
+.blog-main > .blog-post:first-child > hr {
+    border-color: rgb(255, 136, 0);
+}
+
+/* ES6 non va --------------------------------------------------- */
+
+nav span:nth-child(even) {
+    color: magenta;
+}
+
+nav span:nth-child(2n) {
+    color: rgb(167, 179, 0);
+}
+
+/* ES7 non va --------------------------------------------------- */
+
+.blog-sidebar ol:first-of-type li {
+    color: magenta;
+}
+
+.blog-sidebar > div:nth-child(2) ol li {
+    color: rgb(255, 17, 0);
+}
+
+
+/* ES8 non va --------------------------------------------------- */
+
+.blog-post:nth-of-type(2) .blog-post-meta a {
+    color: magenta;
+}  
+
+.blog-main > div:nth-child(2) .blog-post-meta a {
+    color: rgb(0, 110, 255);
+}
+
+.blog-main > .blog-post:nth-child(2) .blog-post-meta a {
+    color: rgb(0, 156, 34);
+}
+
+/* ES9 non va --------------------------------------------------- */
+
+.blog-post:nth-of-type(3) ul li:nth-child(2) {
+    color: magenta;
+}
+
+.blog-main > div:nth-child(3) ul li:nth-child(2) {
+    color: rgb(40, 156, 11);
+}
+
+.blog-main > .blog-post:nth-child(3) ul li:nth-child(2) {
+    color: rgb(172, 169, 10);
+}
+
+/* ES10 non va --------------------------------------------------- */
+
+a.float-right:last-of-type {
+    color: magenta;
+}
+
+a.float-right:last-of-type {
+    color: rgb(255, 166, 0);
+}
+
+/* ES11 non va --------------------------------------------------- */
+
+.btn.btn-outline-secondary.disabled {
+    color: rgb(255, 0, 170);
+}
+
+/* ES12 non va --------------------------------------------------- */
+
+.blog-footer a:nth-child(2) {
+    color: rgb(255, 166, 0);
+}
